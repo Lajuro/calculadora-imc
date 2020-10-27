@@ -1,0 +1,99 @@
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(216, 29, 29, 0.623);
+  animation-name: pisca;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+label, input {
+  display: block;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, .btn {
+  width: 100%;
+  padding: .6rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+input {
+  border: 1px solid #bbbbbb;
+}
+
+p {
+  margin: .5rem 0;
+}
+
+.calculadora {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #e3e3e3;
+  border-radius: .25rem;
+  padding: 2rem;
+  box-shadow: 0px 0px 20px -5px rgba(0,0,0,0.2);
+}
+
+.form-group, .btn, h3 {
+  margin: 1.5rem 0;
+}
+
+.btn {
+  margin-top: 0;
+  padding: 1rem 0;
+  cursor: pointer;
+  background-color: #555555;
+  color: #ffffff;
+}
+
+.alert {
+  padding: .8rem;
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+  border-radius: .25rem;
+  margin-top: 1.5rem;
+}
+
+.alert h3 {
+  margin: 0;
+  margin-bottom: .5rem;
+}
+
+.alert.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert.alert-warning {
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+.alert.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+@keyframes pisca {
+  0% {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 2px 2px 3px rgba(216, 29, 29, 0.623);
+  }
+}
+
+
+
+
+
